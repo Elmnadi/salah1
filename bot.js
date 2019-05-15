@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const MooDY = new Discord.Client();
-client.on('ready', () => {
-  client.user.setGame(`الاعتزال قريبأ`,'https://www.twitch.tv/iTzSatan98');
-  console.log("["+client.user.username+"] Online now !!");
+MooDY.on('ready', () => {
+  MooDY.user.setGame(`Ramadan Kareem`,'https://www.twitch.tv/iiMooDY9');
+  console.log("["+MooDY.user.username+"] Online now !!");
 });
-client.login(process.env.TOKEN);
+MooDY.login(process.env.BOT_TOKEN);
